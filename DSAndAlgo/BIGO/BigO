@@ -1,0 +1,32 @@
+BigO ( O(f(n)) ) is a scale to mesure the performance or complexity (time or space) of a function. f(n) is a function with input of n.
+
+f(n) could be linear ( f(n) = n )
+f(n) could be quadratic ( f(n) = n2 ) NOTE: it is n to the power 2 (n square)
+f(n) could be constant ( f(n) = 1 )
+f(n) could be something entirely different
+
+
+For space complexity,
+Boolean,numbers, undefined, null is constant
+string requires 0(n) space (where n is the string length)
+array require 0(n) (where n is the length of arrays or the number of keys (for objects ))
+
+
+BigO of Objects:
+insertion - O(1)
+removal - O(1)
+Searching - O(n)
+Access - O(1)
+
+Object.keys - O(n)
+Object.values - O(n)
+Object.entries - O(n)
+hasOwnProperty - O(1)
+
+
+
+BigO of Array:
+insertion - It depends...
+removal - It depends...
+Searching - O(n)
+Access - O(1) 
