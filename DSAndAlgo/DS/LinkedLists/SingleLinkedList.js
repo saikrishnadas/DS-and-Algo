@@ -9,7 +9,7 @@ Push function :- (Push the node to end of the Linked List!)
 (*) Increment the length by one.
 (*) Return the linked list
 
-Push function :- (Remove a node from the end of the Linked List!)
+Pop function :- (Remove a node from the end of the Linked List!)
 (*) If there are no nodes in the list, return undefined
 (*) Loop through the list until you reach the tail
 (*) Set the next property of the 2nd to last node to be null
